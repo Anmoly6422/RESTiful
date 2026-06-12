@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./dist",
+
+    "target": "ES2020",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    "esModuleInterop": true,
+    "strict": true,
+
+    "resolveJsonModule": true,
+    "types": ["node"],
+
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*",
+    "prisma/seed.ts"
+  ]
+}
